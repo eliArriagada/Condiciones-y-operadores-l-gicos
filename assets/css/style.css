@@ -1,0 +1,66 @@
+.imagen{
+    width: 10rem;
+    height: 10rem;
+    background-repeat: round;
+}
+
+.imagen_desafioUno{
+    background-image: url("/assets/imgs/imagen_desafio_1.png");
+    border-style: solid;
+    border-color: red;
+    border-width: 0px;
+}
+.contenedor-flex{
+    display: flex;
+}
+
+.imagen_sticker_uno{
+    background-image: url("/assets/imgs/stickers_1.png");
+    border-style: solid;
+    border-color: red;
+    border-width: 0px;
+}
+
+.imagen_sticker_dos{
+    background-image: url("/assets/imgs/stickers_2.png");
+    border-style: solid;
+    border-color: red;
+    border-width: 0px;
+}
+
+.imagen_sticker_tres{
+    background-image: url("/assets/imgs/stickers_3.png");
+    border-style: solid;
+    border-color: red;
+    border-width: 0px;
+}
+.cajas {
+    padding: 1rem;
+
+}
+
+#textoIncorrecto{
+display: none;
+}
+
+.button{
+    margin-left: 17rem;
+    margin-top: 1rem;
+    height: 2rem;
+    width: 5rem;
+    border: 0px solid;
+    background-color: palevioletred;
+    color: white;
+}
+
+.select-contrasenia{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0%;
+
+}
+
+.contrasenia{
+    margin-left: 16.5rem;
+    margin-top: 1rem;
+}

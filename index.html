@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condiciones</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/js/index.js"></script>
+</head>
+
+<body>
+    <article>
+        <h1>Desafío número 1</h1>
+        <h2>El borde</h2>
+        <p>Haga click en el stiker.</p>
+
+
+        <div id="desafio_uno" onclick="desafio_uno()" class="imagen imagen_desafioUno"></div>
+    </article>
+    <article>
+        <h1>Desafío número 2</h1>
+        <h2>Tienda de sticker</h2>
+        <p>Seleccione los stikers que desea llevar. Solo puede seleccionar 10 stikers máximo.</p>
+        <div class="contenedor-flex">
+            <div class="cajas">
+                <div id="desafio_uno" class="imagen imagen_sticker_uno"></div>
+                <input value="0" type="number" name="imagen uno" id="imagenUno">
+            </div>
+            <div class="cajas">
+                <div id="desafio_uno" class="imagen imagen_sticker_dos"></div>
+                <input value="0" type="number" name="imagen dos" id="imagenDos">
+            </div>
+            <div class="cajas">
+                <div id="desafio_uno" class="imagen imagen_sticker_tres"></div>
+                <input value="0" type="number" name="imagen tres" id="imagenTres">
+            </div>
+
+        </div>
+        <p id="textoInformativo"></p>
+        <button class="button" onclick="desafio_dos()">Verificar</button>
+    </article>
+    <article>
+        <h1>Desafío número 3</h1>
+        <h2>La contraseña</h2>
+        <p> Seleccione los números para averiguar las dos contraseñas correctas.</p>
+
+        <div class="contenedor-flex contrasenia">
+            <select class="select-contrasenia" name="" id="digitoUno">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select class="select-contrasenia" name="" id="digitoDos">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select class="select-contrasenia" name="" id="digitoTres">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </div>
+        <p id="estadoContraseña"></p>
+        <button class="button" onclick="desafio_tres()">Ingresar</button>
+
+    </article>
+</body>
+
+</html>
